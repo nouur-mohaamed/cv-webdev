@@ -323,9 +323,6 @@ justify-content: space-around;
      border-radius:3rem;
      width:fit-content;
 }
-#contact-link-container{
-   
-}
 .footer{
   display: flex;
   flex-direction: column;

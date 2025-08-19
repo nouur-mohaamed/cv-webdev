@@ -1,0 +1,209 @@
+@media (max-width: 1400px) {
+  html {
+    font-size: 59.375%;
+  }
+  #skills-first-box-title {
+    margin-bottom: 1rem;
+  }
+  #about-textBoxes-container {
+    gap: 3rem;
+  }
+  .container-about {
+    gap: 9rem;
+  }
+  .about-boxes {
+    padding: 3rem 1rem;
+  }
+}
+@media (max-width: 1320px) {
+  html {
+    font-size: 56.25%;
+  }
+  .container-about {
+    gap: 8rem;
+  }
+  #ps-text {
+    min-width: 180px;
+  }
+}
+@media (max-width: 1080px) {
+  html {
+    font-size: 50%;
+  }
+  .container-skills {
+    gap: 4rem;
+  }
+  .about-img {
+    height: 39rem;
+    width: 30rem;
+    border-radius: 5rem;
+  }
+}
+@media (max-width: 985px) {
+  html {
+    font-size: 46.8%;
+  }
+  .boxes {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .container-skills {
+    gap: 3rem;
+  }
+  .container-about {
+    gap: 5rem;
+  }
+  ul {
+    margin: 0px;
+  }
+}
+@media (max-width: 900px) {
+  html {
+    font-size: 43%;
+  }
+  .container-about {
+    gap: 3rem;
+  }
+  #about-textBoxes-container {
+    gap: 1rem;
+  }
+  .home-bar-links {
+    width: 40%;
+  }
+  .footer{
+    margin-top:15rem;
+  }
+
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 40.625%;
+  }
+  .container-about {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .about-img {
+    height: 33rem;
+    width: 30rem;
+    border-radius: 5rem;
+  }
+  .title-container {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  .container-skills {
+    overflow: scroll;
+    scroll-snap-type:x mandatory;
+    gap: 10rem;
+    height: 50%;
+    min-width: 100%;
+  }
+  #skills-boxes {
+    min-width: 100%;
+    scroll-snap-align:start;
+  }
+  #title-container-skills {
+    margin-bottom: 0px;
+    margin-top: 10rem;
+  }
+  #skills-list {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .sub-list {
+    gap: 1rem;
+  }
+  .boxes-text {
+    font-size: 2rem;
+  }
+  .footer{
+    margin-top:21rem;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 38.5%;
+  }
+  .links{
+  font-size:2.2rem;
+}
+button{
+  font-size:2.1rem;
+}
+.DivOne-MainSection{
+  gap:5rem;
+}
+.footer{
+    margin-top:25rem;
+  }
+
+}
+@media (max-width: 495px) {
+  html {
+    font-size: 34.375%;
+  }
+.links{
+  font-size:2.1rem;
+}
+#title-container-contact{
+    margin-top:30rem;
+  }
+ 
+#footer-text{
+  font-size:1.7rem;
+}
+.DivOne-MainSection{
+  flex-direction: column;
+  gap:2rem;
+  margin-top:15rem;
+}
+.DivOne-MainSection img {
+   height: 140px;
+  width: 140px;
+}
+
+}
+@media (max-width: 410px){
+ul{
+  padding-left:20px;
+  
+}
+#contact-link-container{
+  flex-direction: column;
+  align-items: start;
+  gap:1.5rem;
+}
+#about-textBoxes-container{
+  flex-direction: column;
+}
+.about-boxes{
+  height:auto;
+ padding: 3rem 2rem;
+}
+#Education-list{
+  padding-bottom:1.5rem;
+  padding-right:20px;
+}
+
+
+}
+@media (max-width: 390px){
+    html {
+    font-size: 31.25%;
+  }
+  .slider{
+    width:35rem;
+  }
+  #title-container-contact{
+    margin-top:40rem;
+  }
+}
+@media (max-width: 320px){
+   html {
+   font-size: 29%;
+  }
+  
+}
